@@ -3,6 +3,9 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { HeaderComponent } from './components/header/header.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { MatIconModule } from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
+import { MatDividerModule } from '@angular/material/divider';
 
 @NgModule({
   declarations: [
@@ -11,7 +14,10 @@ import { CommonModule } from '@angular/common';
     FooterComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    MatIconModule,
+    MatButtonModule,
+    MatDividerModule
   ],
   exports : [
     HeaderComponent,
