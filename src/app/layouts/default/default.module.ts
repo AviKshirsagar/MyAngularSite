@@ -1,3 +1,4 @@
+import { RouterModule } from '@angular/router';
 import { PostsComponent } from './../../modules/posts/posts.component';
 import { DashboardComponent } from './../../modules/dashboard/dashboard.component';
 import { DefaultComponent } from './default.component';
@@ -13,7 +14,8 @@ import { CommonModule } from '@angular/common';
     PostsComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ]
 })
 export class DefaultModule { }

@@ -10,11 +10,11 @@ const routes: Routes = [{
   component : DefaultComponent,
   
         children : [{
-          path : '',
-          component : DashboardComponent
-        },{
-          path : 'posts',
-          component : PostsComponent
+              path : '',
+              component : DashboardComponent
+              },{
+              path : 'posts',
+              component : PostsComponent
         }]
 }];
 
