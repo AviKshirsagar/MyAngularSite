@@ -4,9 +4,18 @@
     height: 100%;
 }
 
-mat-drawer{
-    width: 200px;
+.side1{
+    width: 70px;
     background-color: #3F0231;
+    color: white;
+}
+.side1:hover{
+    width: 100px;
+}
+
+mat-drawer{
+    width: 150px;
+    background-color: #D005A1;
     color: white;
 }
 
