@@ -1,9 +1,39 @@
 <mat-divider></mat-divider>
 
 <footer>
-   <article>&copy; all rights reserved /2020</article> 
-    <p>developed by - Avinash</p>
-    <button mat-button>
-        <mat-icon matSuffix>facebook</mat-icon>
-    </button>
+    <div fxLayout="row" fxLayoutAlign="center">
+        <ul fxLayout="row" fxLayoutGap="15px">
+            <li>
+                <button mat-icon-button>
+                    <mat-icon svgIcon="angular"></mat-icon>
+                </button>
+            </li>
+            <li>
+                <button mat-icon-button (click)="onClick()">
+                    <mat-icon svgIcon="git">
+                    </mat-icon>
+                </button>
+            </li>
+            <li>
+                <button mat-icon-button>
+                    <mat-icon svgIcon="chrome"></mat-icon>
+                </button>
+            </li>
+            <li>
+                <button mat-icon-button>
+                    <mat-icon svgIcon="gmail"></mat-icon>
+                </button>
+            </li>
+            <li>
+                <button mat-icon-button>
+                    <mat-icon svgIcon="insta"></mat-icon>
+                </button>
+            </li>
+        </ul>
+        <ul fxLayout="row" fxLayoutAlign="start end" fxLayoutGap="10px">
+            <pre>&copy;right 2020</pre>
+            <pre>developed by - Avinash A. Kshirsagar</pre>
+        </ul>
+    </div>
+
 </footer>
